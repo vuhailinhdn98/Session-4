@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4.1</title>
+    <style>
+        #wrapper {
+            width: 50%;
+            margin: auto;
+            margin-left: 0;
+        }
+        #menu a:hover {
+            color: red;
+            transition: 1.5s;
+        }
+        #menu .active {
+            color: blue;
+            background-color: darkkhaki;
+            padding: 15px;
+        }
+        #menu .active:hover {
+            color: crimson;
+            transition: 0s;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Ví dụ về các trạng thái của hyperlink</h1>
+        <div id="menu">
+            <a href="#">Link 1</a> &#124;
+            <a href="#" target="_blank">Link 2</a> &#124;
+            <a href="#">Link 3</a> &#124;
+            <a href="#" class="active">Link 4</a> &#124;
+        </div>
+        <h2>Guide:</h2>
+        <div id="list">
+            <ul>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+                <li>Lorem ipsum</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
